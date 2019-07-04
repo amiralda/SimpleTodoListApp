@@ -1,0 +1,7 @@
+<resources>
+    <string name="SimpleTodo2">SimpleTodo2</string>
+    <string name="add">ADD</string>
+    <string name="add_text_here">Add text here...</string>
+    <string name="save">Save</string>
+    <string name="enter_item_description">Enter item description</string>
+</resources>

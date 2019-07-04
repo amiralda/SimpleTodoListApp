@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/SimpleTodo2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    tools:context=".EditItemActivity">
+
+    <EditText
+        android:id="@+id/etItemText"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="clip_vertical|fill|fill_horizontal|top|end"
+        android:hint="@string/enter_item_description"
+        android:inputType="textMultiLine"
+        tools:targetApi="o" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/etItemText"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="286dp"
+        android:layout_marginBottom="-53dp"
+        android:onClick="onSaveItem"
+        android:text="@string/save" />
+</RelativeLayout>
